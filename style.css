@@ -1,0 +1,118 @@
+
+body { 
+	font-family: 'Trebuchet MS', sans-serif;
+	text-align: center;
+}
+
+textarea {
+	background: none;
+	color: #FFF1E8;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	outline: none;
+}
+
+textarea:focus {
+	border: 3px solid #FFF1E8;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+.center {
+	position: absolute;	
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #FFF1E8
+}
+
+input[type=button] {
+	background-color: none;
+}
+
+.button {
+  background-color: transparent; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: transparent; 
+  color: #00F73A; 
+  border: 2px solid #00F73A;
+}
+
+.button1:hover {
+  background-color: #00F73A;
+  color: #1C1B1B;
+}
+
+.button2 {
+  background-color: transparent; 
+  color: #FF4242; 
+  border: 2px solid #FF4242;
+}
+
+.button2:hover {
+  background-color: #FF4242;
+  color: #1C1B1B;
+}
+
+.inputContent {
+    display: block;
+}
+
+.inputContent.show {
+    display: none;
+    animation: fade_in_show 0.5s
+}
+
+.outputContent {
+	display: none;
+	
+}
+
+.outputContent.show {
+    display: block;
+    animation: fade_in_show 0.5s
+}
+
+.textContent {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	outline: none;
+    
+}
+
+@keyframes fade_in_show {
+    0% {
+        opacity: 0;
+        transform: scale(0)
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+select:hover {
+  background-color: #00F73A;
+  color: #1C1B1B;
+}
+
